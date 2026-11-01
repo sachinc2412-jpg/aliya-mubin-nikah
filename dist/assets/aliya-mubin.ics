@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Aliya and Mubin//Nikah Invitation//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:aliya-mubin-nikah-20261204@invitation
+DTSTAMP:20261101T230000Z
+DTSTART:20261204T114500Z
+SUMMARY:Nikah of Aliya and Mubin
+LOCATION:Daulat Masjid\, Near Bismillah Hall\, Kondhwa\, Pune
+DESCRIPTION:After Namaz-e-Asar at 5:15 p.m. IST. End time unspecified.\nDinner after Namaz-e-Maghrib at Bismillah Khan Memorial Hall\, Sr. No. 62\, Saibaba Nagar\, Kondhwa Khurd\, Pune 411048.\nContacts: 9579872877 / 9822416112.
+END:VEVENT
+END:VCALENDAR
