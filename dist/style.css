@@ -199,3 +199,6 @@ main .heart-wrap .date-hidden strong{font-size:20px;line-height:1.15;letter-spac
 main .heart-wrap .date-hidden>span{font-size:16px;line-height:1.15}
 main .heart-wrap .date-hidden small{font:700 8px/1.2 Arial,sans-serif;letter-spacing:0;margin-top:1px;white-space:nowrap}
 @media(max-width:360px){main .heart-wrap .date-hidden{gap:3px}main .heart-wrap .date-hidden i{font-size:19px}main .heart-wrap .date-hidden strong{font-size:18px}main .heart-wrap .date-hidden>span{font-size:15px}main .heart-wrap .date-hidden small{font-size:7px}}
+
+/* Mobile-safe curtain rendering: keep artwork on identical painted layers. */
+@media(max-width:650px){.curtain{background-image:none!important;background-color:#eadfc8;transform:none!important;scale:none!important;width:51%;transition:width 6.2s cubic-bezier(.32,.02,.15,1),clip-path 6.2s cubic-bezier(.32,.02,.15,1);will-change:width,clip-path}.curtain:before{content:'';position:absolute;inset:0;background:url('/assets/pearl-curtain.webp') center/100% 100% no-repeat;pointer-events:none}.curtain-left:before{transform:none}.curtain-right:before{transform:scaleX(-1)}body.opened .curtain-left,body.opened .curtain-right{transform:none!important;width:12%}body.reveal-complete .curtain{transition:none}}
